@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="863b1728-3336-463d-becf-c44bcfe93ce2" name="Default Changelist" comment="" />
+    <list default="true" id="863b1728-3336-463d-becf-c44bcfe93ce2" name="Default Changelist" comment="data" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +25,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kTNklaHZaqdZtNtQIagm3X0zWm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,12 +50,47 @@
       <option name="presentableId" value="Default" />
       <updated>1605720767078</updated>
       <workItem from="1605720768120" duration="11646000" />
-      <workItem from="1605771062355" duration="4774000" />
+      <workItem from="1605771062355" duration="5145000" />
     </task>
+    <task id="LOCAL-00001" summary="data">
+      <created>1605778006966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605778006966</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="data" />
+    <option name="LAST_COMMIT_MESSAGE" value="data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605724309531">
@@ -47,10 +101,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/1920.2.1600.1200@0.0.1536.864" timestamp="1605724604306" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605777723830">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1605777856799">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.2.1600.1200@0.0.1536.864" timestamp="1605777723830" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864/1920.2.1600.1200@0.0.1536.864" timestamp="1605777856799" />
     <state x="396" y="155" key="NewPhpClassDialog" timestamp="1605724479583">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -59,6 +113,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864/1920.2.1600.1200@0.0.1536.864" timestamp="1605775960008" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605777961606">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.2.1600.1200@0.0.1536.864" timestamp="1605777961606" />
     <state x="668" y="309" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605724327885">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
