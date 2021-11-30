@@ -1,0 +1,62 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Comment;
+use App\User;
+use Illuminate\Http\Request;
+
+class CommentController extends Controller
+{
+	/**
+	 * Create a new controller instance.
+	 */
+	public function __construct()
+	{
+		$this->middleware('auth');
+	}
+
+
+	/**
+	 * Store a newly created resource in storage.
+	 */
+	public function store(Request $request)
+	{
+		$request->validate([
+            'text' => 'required',
+            'post_id' => 'required|integer|exists:posts,id'
+        ]);
+
+
+
+		$comment = auth()->user()->comments()->create(
+            $request->all()
+        );
+
+        return redirect('/posts/' . $comment->post->id . '#comments')
+            ->with('flash', 'Pridali ste komentár!');
+	}
+
+
+	/**
+	 * Update the specified resource in storage.
+	 */
+	public function update(Request $request, Comment $comment)
+	{
+		$this->authorize('update', $comment);
+
+		$comment->text = $request->text;
+		$comment->save();
+	}
+
+
+	/**
+	 * Remove the specified resource from storage.
+	 */
+	public function destroy(Comment $comment)
+	{
+		$this->authorize('update', $comment);
+
+		$comment->delete();
+	}
+}
